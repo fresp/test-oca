@@ -10,9 +10,9 @@
 
 | Name  | Endpoint Route |
 | ------------- | ------------- |
-| Checkin Parkir  |  http://localhost:3000/mhs/create  |
-| Checkout Parkir |   http://localhost:4004/parkir/checkout  |
-| Lihat Jumlah parkir |   http://localhost:4004/parkir/results?tipe=SUV&warna=Hitam |
+| Checkin Parkir  |  [POST] http://localhost:4004/parkir/checkout  |
+| Checkout Parkir |   [POST] http://localhost:4004/parkir/checkout  |
+| Lihat Jumlah parkir |   [GET] http://localhost:4004/parkir/results?tipe=SUV&warna=Hitam |
 
 #### Struktur Folder:
 
