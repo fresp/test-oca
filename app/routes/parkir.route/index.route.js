@@ -1,5 +1,6 @@
 const { Controller } = require('../../../core/Controller');
 const { ResultsParkirController } = require('../../controllers/parkir.controller/results.controller');
+const { ListPlatController } = require('../../controllers/parkir.controller/listplat.controller');
 const { CheckoutParkirController } = require('../../controllers/parkir.controller/checkout.controller');
 const { CheckinParkirController } = require('../../controllers/parkir.controller/checkin.controller');
 
@@ -24,6 +25,11 @@ class ParkirRoute extends Controller {
         controller.POST('/parkir/checkout', (req, res, next) => {
 
             return new CheckoutParkirController(req, res).Controller();
+        });
+
+        controller.GET('/parkir/listplat', (req, res, next) => {
+
+            return new ListPlatController(req, res).Controller();
         });
     }
 }

@@ -13,6 +13,7 @@
 | Checkin Parkir  |  [POST] http://localhost:4004/parkir/checkout  |
 | Checkout Parkir |   [POST] http://localhost:4004/parkir/checkout  |
 | Lihat Jumlah parkir |   [GET] http://localhost:4004/parkir/results?tipe=SUV&warna=Hitam |
+| List Nomer Kendaraan |   [GET] http://localhost:4004/parkir/listplat?tipe=SUV&warna=Hitam |
 
 #### Struktur Folder:
 

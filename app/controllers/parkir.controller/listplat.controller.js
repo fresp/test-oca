@@ -34,6 +34,7 @@ class ListPlatController extends parkirModel {
                 }
             });
         } else {
+            let flatMap = lodash.flatMap(result, function(o){return o.plat_nomor});
             msg.success('success', 200, {
 
                 response: {
@@ -43,7 +44,7 @@ class ListPlatController extends parkirModel {
                     method: req.method,
                     message: 'Fetch Success',
                     data: {
-                        jumlah_kendaraan : result.length
+                        plat_nomor : flatMap
                     }
                 }
             });
