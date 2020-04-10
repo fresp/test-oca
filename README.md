@@ -32,7 +32,7 @@
 
 - **app** tempat yang berisi untuk menyimpan, semua fungsi  dari aplikasi yang nantinya akan kita buat
 
-- **controller** tempat yang berisi semua logic dari aplikasi tersebut seperti untuk membuat tambah data mahasiswa, hapus data mahasiswa dll
+- **controller** tempat yang berisi semua logic dari aplikasi tersebut.
 
 - **helper** tempat yang berisi sebuah fungsi penolong sebagai utility untuk digunakan seperti **custome message, custome email template** dll
 
